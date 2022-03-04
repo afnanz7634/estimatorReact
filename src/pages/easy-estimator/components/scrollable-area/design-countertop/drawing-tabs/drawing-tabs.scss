@@ -1,0 +1,125 @@
+@import './src/theme/ee-colors.scss';
+
+.ant-tabs.drawing-tabs {
+    position: absolute;
+    right: 0;
+    top: -16px;
+    z-index: 300;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    background: $card-background-color 0% 0% no-repeat padding-box;
+    box-shadow: -1px 3px 6px $shadow-custom-sides-color;
+    opacity: 1;
+    padding: 0;
+    .ant-tabs-nav .ant-tabs-nav-wrap {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        .ant-tabs-tab + .ant-tabs-tab {
+            margin: 0;
+            margin-left: 5px;
+        }
+
+        .ant-tabs-nav-list .ant-tabs-ink-bar {
+            background: $secondary-color;
+        }
+    }
+    .predefined-icon {
+        opacity: 1;
+        font-size: 50px;
+    }
+
+    .ant-tabs-content {
+        .selection-title-area {
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 27px;
+            margin-bottom: 5px;
+
+            .text-area {
+                display: flex;
+                margin-right: 20px;
+                align-items: center;
+                min-width: 200px;
+            }
+
+            .info-icon {
+                font-size: 26px;
+                color: $primary-color;
+                cursor: pointer;
+                padding-right: 20px;
+            }
+        }
+
+        .selected-color-image {
+            max-width: 30px;
+            max-height: 30px;
+            margin-right: 10px;
+        }
+        .add-layout-area {
+            background-color: $ee-white;
+            box-shadow: 0 2px 4px 0 $shadow-color;
+            position: absolute;
+            right: 0;
+            z-index: 300;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            max-width: 310px;
+            opacity: 1;
+
+            .shape-menu {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-top: 30px;
+                padding-left: 15px;
+                padding-right: 10px;
+                padding: 10px 10px 0 15px;
+
+                .shape-container {
+                    width: 30%;
+                    height: 25%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    opacity: 1;
+
+                    .shape-image {
+                        height: 73%;
+
+                        &.selected {
+                            border: 4px solid $secondary-color;
+                            border-radius: 8px;
+                        }
+                    }
+                    .shape-title {
+                        font-weight: bolder;
+                        text-align: center;
+                        min-height: 40px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .draw-layout-tab {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .draw-icon {
+                opacity: 1;
+            }
+        }
+    }
+}

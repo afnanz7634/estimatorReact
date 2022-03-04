@@ -1,0 +1,18 @@
+[{
+  "id": 1,
+  "image": "./public/assets/images/CustomSides/RadiusOut.svg",
+  "title": "RADIUS OUT",
+  "type": "RadiusOut"
+},
+  {
+    "id": 2,
+    "image": "./public/assets/images/CustomSides/BumpOut.svg",
+    "title": "BUMP OUT",
+    "type": "BumpOut"
+  },
+  {
+    "id": 3,
+    "image": "./public/assets/images/CustomSides/RemoveCustomSide.svg",
+    "title": "REMOVE CUSTOM SIDE",
+    "type": "RemoveCustomSide"
+  }]

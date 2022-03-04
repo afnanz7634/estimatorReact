@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Quartz",
+    "src": "./public/mock/images/butcher.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Granite",
+    "src": "./public/mock/images/granite.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Porcelain",
+    "src": "./public/mock/images/porcelain.png"
+  },
+  {
+    "id": 4,
+    "name": "Solid Surface",
+    "src": "./public/mock/images/butcher.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Butcher Block",
+    "src": "./public/mock/images/porcelain.png"
+  },
+  {
+    "id": 6,
+    "name": "Laminate",
+    "src": "./public/mock/images/granite.jpg"
+  }
+]

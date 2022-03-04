@@ -1,0 +1,8 @@
+$primary-color: #002069;
+$secondary-color: #15b6e4;
+
+$font-family: 'Helvetica';
+
+:export {
+    secondaryColor: $secondary-color;
+}

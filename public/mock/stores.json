@@ -1,0 +1,42 @@
+[
+    {
+        "id": "12865",
+        "zipCode": "45874",
+        "dealerName": "LOWE'S OF DANVERS,MA",
+        "storeNumber": 1,
+        "address": "8805 Liberia Avenue Manassas, VA 20110",
+        "distance": 300
+    },
+    {
+        "id": "13893",
+        "zipCode": "45874",
+        "dealerName": "LOWE'S OF BROCKTON,MA",
+        "storeNumber": 2,
+        "address": "8809 Liberia Avenue Manassas, VA 20110",
+        "distance": 200
+    },
+    {
+        "id": "13894",
+        "zipCode": "45874",
+        "dealerName": "LOWE'S OF BROCKTON,MA",
+        "storeNumber": 3,
+        "address": "8809 Liberia Avenue Manassas, VA 20110",
+        "distance": 145
+    },
+    {
+        "id": "13896",
+        "zipCode": "45874",
+        "dealerName": "LOWE'S OF BROCKTON,MA",
+        "storeNumber": 4,
+        "address": "8809 Liberia Avenue Manassas, VA 20110",
+        "distance": 600
+    },
+    {
+        "id": "13899",
+        "zipCode": "45874",
+        "dealerName": "LOWE'S OF BROCKTON,MA",
+        "storeNumber": 5,
+        "address": "8809 Liberia Avenue Manassas, VA 20110",
+        "distance": 500
+    }
+]

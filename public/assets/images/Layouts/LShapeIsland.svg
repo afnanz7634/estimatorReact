@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="75px" viewBox="0 0 100 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DBD7BA68-1860-4057-9817-D1FC81B36C25</title>
+    <filter id="dropShadow">
+        <feGaussianBlur stdDeviation="2" />
+        <feOffset dx="2" dy="4" />
+        <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Easy-Estimator_v81-" transform="translate(-1280.000000, -2583.000000)">
+            <g id="L-Shape-+-Island" transform="translate(1280.000000, 2583.000000)">
+                <path d="M45,63 L45,43 L85,43 L85,63 L45,63 Z" id="Combined-Shape" fill="#A1A1A1" filter="url(#dropShadow)"></path>
+                <path d="M35,33 L35,63 L15,63 L15,13 L85,13 L85,33 L35,33 Z" id="Combined-Shape" fill="#A1A1A1" filter="url(#dropShadow)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

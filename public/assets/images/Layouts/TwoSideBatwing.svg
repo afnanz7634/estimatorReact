@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="75px" viewBox="0 0 100 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B9208703-9190-4CFD-91A9-BE5A410E3AFC</title>
+    <filter id="dropShadow">
+        <feGaussianBlur stdDeviation="2" />
+        <feOffset dx="2" dy="4" />
+        <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Easy-Estimator_v81-" transform="translate(-1280.000000, -2456.000000)">
+            <g id="Two-side-batwing" transform="translate(1280.000000, 2456.000000)">
+                <path d="M90,16 L90,36 L50,36 L50,33.568 L49.999,33.569 L50,36 L47.568,36 L25.1421356,58.4264069 L11,44.2842712 L39.2842712,16 L50,16 L49.999,26.715 L50,26.716 L50,16 L90,16 Z" id="Combined-Shape-Copy" fill="#A1A1A1" filter="url(#dropShadow)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

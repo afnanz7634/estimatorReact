@@ -1,0 +1,12 @@
+[{
+  "id": 1,
+  "image": "./public/assets/images/ThicknessOptions/3CM Thickness.svg",
+  "title": "KEEP 3 CM",
+  "type": "3CM"
+},
+  {
+    "id": 2,
+    "image": "./public/assets/images/ThicknessOptions/2CM Thickness.svg",
+    "title": "CHANGE TO 2 CM",
+    "type": "2CM"
+  }]

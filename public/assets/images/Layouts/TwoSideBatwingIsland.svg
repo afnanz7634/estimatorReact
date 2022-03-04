@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="75px" viewBox="0 0 100 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>43324187-3A44-4180-A268-289570B803F4</title>
+    <filter id="dropShadow">
+        <feGaussianBlur stdDeviation="2" />
+        <feOffset dx="2" dy="4" />
+        <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Easy-Estimator_v81-" transform="translate(-1280.000000, -2692.000000)">
+            <g id="Two-side-batwing-+-Island" transform="translate(1280.000000, 2692.000000)">
+                <path d="M50,63 L50,43 L90,43 L90,63 L50,63 Z" id="Combined-Shape" fill="#A1A1A1" filter="url(#dropShadow)"></path>
+                <path d="M90,13 L90,33 L50,33 L50,30.568 L49.999,30.569 L50,33 L47.568,33 L25.1421356,55.4264069 L11,41.2842712 L39.2842712,13 L50,13 L49.999,23.715 L50,23.716 L50,13 L90,13 Z" id="Combined-Shape" fill="#A1A1A1" filter="url(#dropShadow)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,116 @@
+@import './src/theme/ee-colors.scss';
+
+.ant-notification-notice-with-icon .ant-notification-notice-message {
+    color: $ee-error-color;
+    font-family: $font-family;
+
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.ant-notification-notice-with-icon .ant-notification-notice-description {
+    font-family: $font-family;
+    color: $ee-black;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-left: 0;
+
+    .description-container {
+        padding: 20px;
+        padding-top: 10px;
+        color: $ee-black;
+    }
+}
+
+.ant-notification-notice-close {
+    top: 10px;
+    right: 10px;
+    color: $title-material-selected;
+    outline: none;
+}
+
+.ant-notification.ant-notification-topRight {
+    .ant-notification-notice.ant-notification-notice-closable {
+        display: flex;
+        &::before {
+            content: '';
+            width: 10px;
+            height: 150px;
+            margin-top: 1px;
+            border-radius: 50px 5px 5px 50px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        &.error-container {
+            &::before {
+                background: $ee-error-color;
+            }
+
+            .ant-notification-notice-icon {
+                margin-left: 20px;
+                color: $ee-error-color;
+            }
+
+            .ant-notification-notice-with-icon .ant-notification-notice-message {
+                color: $ee-error-color;
+            }
+        }
+
+        &.warning-container {
+            &::before {
+                background: $ee-warning-color;
+            }
+
+            .ant-notification-notice-icon {
+                margin-left: 20px;
+                color: $ee-warning-color;
+            }
+
+            .ant-notification-notice-with-icon .ant-notification-notice-message {
+                color: $ee-warning-color;
+            }
+        }
+
+        &.success-container {
+            &::before {
+                background: $ee-success-color;
+            }
+
+            .ant-notification-notice-icon {
+                margin-left: 20px;
+                color: $ee-success-color;
+            }
+
+            .ant-notification-notice-with-icon .ant-notification-notice-message {
+                color: $ee-success-color;
+            }
+        }
+    }
+}
+
+.ant-notification.ant-notification-topRight {
+    .ant-notification-notice.ant-notification-notice-closable {
+        display: flex;
+        &::before {
+            content: '';
+            width: 10px;
+            height: 150px;
+            margin-top: 1px;
+            border-radius: 50px 5px 5px 50px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        &.error-container {
+            &::before {
+                background: $ee-error-color;
+            }
+        }
+    }
+}

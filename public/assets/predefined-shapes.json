@@ -1,0 +1,305 @@
+[
+    {
+        "id": 1,
+        "image": "./public/assets/images/Layouts/Rectangle.svg",
+        "title": "Rectangle",
+        "type": "Rectangle",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -70,
+                    "y": 0
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 70,
+                    "y": 0
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 2,
+        "image": "./public/assets/images/Layouts/LShape.svg",
+        "title": "L Shape",
+        "type": "LShape",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -32.25,
+                    "y": 37.5
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -32.25,
+                    "y": -24.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 45,
+                    "y": -24.75
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 3,
+        "image": "./public/assets/images/Layouts/UShape.svg",
+        "title": "U Shape",
+        "type": "UShape",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -37.25,
+                    "y": 22.5
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -37.25,
+                    "y": -9.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 37.25,
+                    "y": -9.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 37.25,
+                    "y": 22.5
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 4,
+        "image": "./public/assets/images/Layouts/Gallery.svg",
+        "title": "Galley",
+        "type": "Galley",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -70,
+                    "y": -27.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 70,
+                    "y": -27.75
+                },
+                "depth": 12.75
+            }
+        ], [
+            {
+                "pos": {
+                    "x": -70,
+                    "y": 27.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 70,
+                    "y": 27.75
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 5,
+        "image": "./public/assets/images/Layouts/TwoSideBatwing.svg",
+        "title": "Two side batwing ",
+        "type": "2-side-batwing",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -57.19759,
+                    "y": 21.2132
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -18.5368,
+                    "y": -17.47881
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 66.2132,
+                    "y": -17.47881
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 6,
+        "image": "./public/assets/images/Layouts/ThreeSideBatwing.svg",
+        "title": "Three side batwing",
+        "type": "3-side-batwing",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -59.26866,
+                    "y": 14.14214
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -34.75,
+                    "y": -10.40775
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 34.75,
+                    "y": -10.40775
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 59.26866,
+                    "y": 14.14214
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 7,
+        "image": "./public/assets/images/Layouts/GShape.svg",
+        "title": "G Shape",
+        "type": "GShape",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -12,
+                    "y": 29.25
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -35.25,
+                    "y": 29.25
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -35.25,
+                    "y": -29.25
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 35.25,
+                    "y": -29.25
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 35.25,
+                    "y": 42
+                },
+                "depth": 12.75
+            }
+        ]]
+    },
+    {
+        "id": 8,
+        "image": "./public/assets/images/Layouts/LShapeIsland.svg",
+        "title": "L Shape + Island",
+        "type": "LShape-Island",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -30,
+                    "y": 40.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -30,
+                    "y": -28
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 42.75,
+                    "y": -28
+                },
+                "depth": 12.75
+            }
+        ], [
+            {
+                "pos": {
+                    "x": 12.75,
+                    "y": 27.75
+                },
+                "depth": 13
+            }, {
+                "pos": {
+                    "x": 42.75,
+                    "y": 27.75
+                },
+                "depth": 13
+            }
+        ]]
+    },
+    {
+        "id": 9,
+        "image": "./public/assets/images/Layouts/UShapeIsland.svg",
+        "title": "U Shape + Island",
+        "type": "UShape-Island",
+        "skeletonData": [[
+            {
+                "pos": {
+                    "x": -57.75,
+                    "y": 40.75
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": -57.75,
+                    "y": -28
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 57.75,
+                    "y": -28
+                },
+                "depth": 12.75
+            }, {
+                "pos": {
+                    "x": 57.75,
+                    "y": 40.75
+                },
+                "depth": 12.75
+            }
+        ], [
+            {
+                "pos": {
+                    "x": -15,
+                    "y": 27.75
+                },
+                "depth": 13
+            }, {
+                "pos": {
+                    "x": 15,
+                    "y": 27.75
+                },
+                "depth": 13
+            }
+        ]]
+    }
+]

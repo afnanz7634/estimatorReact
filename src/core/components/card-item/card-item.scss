@@ -1,0 +1,86 @@
+@import './src/theme/ee-colors.scss';
+
+.container-card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-card-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    margin-bottom: 20px;
+}
+.ant-collapse > .ant-collapse-item.ant-collapse-no-arrow > .ant-collapse-header {
+    padding-left: 20px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    padding: 20px;
+
+    .arrow {
+        font-size: 18px;
+        color: $ee-header-color;
+    }
+    .title {
+        padding-left: 10px;
+    }
+    .info-icon {
+        font-size: 26px;
+        color: $primary-color;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+
+    .info-icon-disabled {
+        cursor: default;
+    }
+
+    .info-icon-not-allowed {
+       cursor: not-allowed;
+    }
+
+    .title span {
+        padding-left: 0px;
+        font-size: 20px;
+        letter-spacing: 0.21px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+    .loading-spinner {
+        padding-left: 10px;
+    }
+}
+.ant-collapse {
+    box-shadow: 0 2px 10px 0 rgba($text-color, 0.16);
+
+    .ant-collapse-header {
+        background-color: $card-background-color;
+        .ant-collapse-header-text {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 0.11px;
+            line-height: 25px;
+            color: $ee-header-color;
+        }
+    }
+
+    .ant-collapse-content {
+        .ant-collapse-content-box {
+            padding: 10px 20px 20px 20px;
+        }
+        .description {
+            color: $card-color;
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.7;
+            font-weight: 500;
+            letter-spacing: 0.1px;
+            line-height: 23px;
+        }
+    }
+}
+
+.ant-collapse .ant-collapse-item-disabled > .ant-collapse-header,
+.ant-collapse .ant-collapse-item-disabled > .ant-collapse-header > .arrow {
+    font-size: 20px;
+}

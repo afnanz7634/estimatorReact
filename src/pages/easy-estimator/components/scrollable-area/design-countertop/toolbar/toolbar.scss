@@ -1,0 +1,25 @@
+@import './src/theme/ee-colors.scss';
+
+.canvas-toolbar-area {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+
+    .canvas-toolbar-item {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &.selected {
+            border: solid 1px $secondary-color;;
+        }
+
+        span {
+            font-size: 20px;
+        }
+    }
+}

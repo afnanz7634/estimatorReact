@@ -1,0 +1,8 @@
+@import './src/theme/ee-colors.scss';
+
+:export {
+    primaryColor: $primary-color;
+    secondaryColor: $secondary-color;
+    fontFamily: $font-family;
+    descriptionColor: $ee-black;
+}

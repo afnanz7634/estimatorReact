@@ -1,0 +1,63 @@
+@import './src/theme/ee-colors.scss';
+
+$start: 0;
+$end: 50;
+
+@for $i from $start through $end {
+    .modal-mount-#{$i} {
+        position: relative;
+        background: $ee-white;
+    }
+
+    .modal-mount-#{$i} .ant-modal-mask,
+    .modal-mount-#{$i} .ant-modal-wrap {
+        position: absolute;
+        z-index: 100;
+    }
+
+    .modal-mount-#{$i} .ant-modal-mask,
+    .modal-mount-#{$i} .ant-modal-wrap {
+        @if $i == 0 {
+            z-index: 900;
+        }
+
+    }
+}
+
+.custom-modal {
+    background: $ee-white 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px $shadow-custom-sides-color;
+    opacity: 1;
+    padding: 0;
+    border-radius: 10px;
+
+    .ant-modal-body {
+        padding: 24px;
+    }
+
+    .ant-modal-content {
+        border-radius: 10px;
+        height: auto;
+    }
+
+    .ant-modal-close-x {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        color: $ee-black;
+        font-size: 13px;
+    }
+
+    .modal-title {
+        text-align: left;
+        letter-spacing: 0.09px;
+        font-size: 16px;
+        margin: 5px 5px 10px 0;
+    }
+
+    .modal-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,66 @@
+@import './src/theme/ee-colors.scss';
+
+$card-width: 250px;
+
+.thickness-option-card-content {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    gap: 63px;
+
+    .image-container {
+        width: $card-width;
+        min-width: $card-width;
+        height: 210px;
+        background: $card-background-color 0 0 no-repeat padding-box;
+        box-shadow: 0 3px 6px $shadow-custom-sides-color;
+        border-radius: 8px;
+        opacity: 1;
+        border: 4px solid $card-background-color;
+
+        &.selected {
+            padding: 0;
+            border-color: $secondary-color;
+        }
+
+        .image-card {
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px;
+
+            img {
+                height: 170px;
+            }
+
+            .card-name {
+                margin: -10px 0 0 10px;
+                display: block;
+
+                .thickness-option-name {
+                    font-size: 16px;
+                    text-align: left;
+                    letter-spacing: 0;
+                    color: $ee-header-color;
+                    text-transform: uppercase;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.ant-collapse-content-box {
+    .title {
+        font-size: 20px;
+        letter-spacing: 0.21px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+}
+
+.thickness-divider {
+    margin: 0 0 20px -20px;
+    border-top: 1px solid $ee-divider-color;
+    width: calc(100% + 40px);
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "id": "125",
+        "latitude": 47.6534523, 
+        "longitude": 26.216632099999998,
+        "zipCode": "45874",
+        "city": "Cluj"
+    
+    },
+    {
+        "id": "126",
+        "latitude": 47.65345562, 
+        "longitude": 26.216632099999993,
+        "zipCode": "12365",
+        "city": "Oradea"
+    },
+    {
+        "id": "127",
+        "latitude": 47.6534583, 
+        "longitude": 26.216632099969998,
+        "zipCode": "85496",
+        "city": "Suceava"
+    },
+    {
+        "id": "128",
+        "latitude": 47.89834523, 
+        "longitude": 26.1213132132132132,
+        "zipCode": "26598",
+        "city": "Alba Iulia"
+    }
+]

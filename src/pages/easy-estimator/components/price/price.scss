@@ -1,0 +1,158 @@
+@import './src/theme/ee-colors.scss';
+
+.ant-popover-content > .ant-popover-inner > .ant-popover-inner-content {
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        width: 330px;
+
+        .description {
+            color: $card-color;
+            font-size: 14px;
+            opacity: 0.7;
+            font-weight: 500;
+            letter-spacing: 0.1px;
+            line-height: 23px;
+        }
+        .close-icon {
+            padding-top: 5px;
+        }
+    }
+}
+
+.centered-container {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 20px 30px;
+}
+.price-container {
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+
+    .main-price-container {
+        @extend .centered-container;
+
+        .collapse-arrow {
+            color: $primary-color;
+            margin-left: auto;
+        }
+
+        .image-container {
+            width: 30%;
+            height: 100%;
+            min-width: 350px;
+            max-width: 100%;
+            padding-bottom: 20px;
+            .image {
+                border-radius: 5px;
+            }
+            .selected-material {
+                height: 24px;
+                width: 240px;
+                color: $primary-color;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        .total-price-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .basic-installation {
+            padding-top: 13px;
+            color: $hyperlink-color;
+            font-size: 16px;
+            font-weight: bolder;
+            text-decoration: underline;
+            cursor: pointer;
+            width: fit-content;
+        }
+        .checkout-btn-container {
+            display: flex;
+            justify-content: center;
+            padding-top: 54px;
+            .checkout-button {
+                height: 40px;
+                width: 177px;
+                border-radius: 4px;
+                font-size: 18px;
+            }
+        }
+        .title {
+            display: flex;
+            font-size: 18px;
+            font-weight: bolder;
+            padding-top: 20px;
+        }
+        .price-details-container {
+            padding: 7px 10px 0 7px;
+            font-size: 14px;
+            height: 35vh;
+            width: 100%;
+            background-color: $card-background-color;
+            box-shadow: inset 0 2px 6px 0 $shadow-price-details-color;
+            letter-spacing: 0;
+            line-height: 29px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            &::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(black, 0.1);
+                border-radius: 5px;
+                background-color: white;
+            }
+            &::-webkit-scrollbar {
+                width: 5px;
+                background-color: white;
+            }
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                box-shadow: inset 0 0 6px rgba(black, 0.3);
+                background-color: $ee-scrollbar-color;
+            }
+            .price-item-container {
+                padding-bottom: 10px;
+
+                .product-name {
+                    width: 100px;
+                    line-height: 18px;
+                    padding-right: 15px;
+                    text-align: start;
+                }
+                .product-qty {
+                    line-height: 15px;
+                    text-align: center;
+                    width: 80px;
+                }
+                .product-price {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .loading-spinner {
+        height: 100%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .error-container {
+        .error-message {
+            height: 24px;
+            width: 240px;
+            color: $ee-error-color;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "typeRoots": ["node_modules/@types", "core/typings"],
+        "noEmit": false,
+        "sourceMap": true,
+        "jsx": "react-jsx",
+        "baseUrl": "src",
+        "paths": {
+            "@common/*": ["common/*"],
+            "@core/*": ["core/*"],
+            "@ee-context": ["pages/easy-estimator/context"],
+            "@ee-reducer": ["pages/easy-estimator/context/reducers"]
+        }
+    },
+    "include": ["src", "src/core/types/svg-types.d.ts", "src/core/types/scss-types.d"]
+}

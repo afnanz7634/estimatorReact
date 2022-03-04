@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.966" height="37.958" viewBox="0 0 40.966 37.958">
+  <g id="Add_Shape" data-name="Add Shape" transform="translate(1.032 1.026)">
+    <path id="Path_65" data-name="Path 65" d="M40.971,23.213V7.559a3.9,3.9,0,0,0-1.44-2.569A7.119,7.119,0,0,0,36,4.319H9.645s-2.747-.3-4,.671S4.638,8.2,4.638,8.2V32.431s-.362,1.766.454,2.627,2.811.817,2.811.817h22" transform="translate(-4.558 -4.276)" fill="none" stroke="current"  stroke-width="2"/>
+    <path id="Path_69" data-name="Path 69" d="M17.885,14.727H46.147v8.432H25.359V39.1H17.885Z" transform="translate(-13.887 -11.116)" fill="#fff" stroke="current"  stroke-width="1"/>
+    <path id="Path_70" data-name="Path 70" d="M25.988,22.562h7.825V30.1h-8.2V21.9" transform="translate(-9.629 -7.299)" fill="#fff" stroke="current"  stroke-width="1"/>
+    <path id="Icon_metro-plus" data-name="Icon metro-plus" d="M17.347,8.176H11.909V2.449a.566.566,0,0,0-.571-.521h-2a.521.521,0,0,0-.521.521V8.176H3.091a.521.521,0,0,0-.521.521v2c0,.288.233.385.521.385H8.819V18.07a.521.521,0,0,0,.521.521h2.112a.47.47,0,0,0,.457-.521V11.085h5.53c.288,0,.48-.1.48-.385v-2A.566.566,0,0,0,17.347,8.176Z" transform="translate(22.016 18.341)" fill="current" />
+  </g>
+</svg>

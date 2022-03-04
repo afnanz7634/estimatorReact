@@ -1,0 +1,110 @@
+{
+    "COMMON": {
+        "SORT_BY": "Sort by",
+        "BRAND": "Brands",
+        "COLOR_CATEGORY": "Color",
+        "FREE_PRICE": "Free",
+        "YES": "YES",
+        "NO": "NO",
+        "APPLY_FILTERS": "Apply Filters",
+        "CLEAR_FILTERS": "Clear all filters"
+    },
+    "NAVIGATION_MENU": {
+        "INFORMATION": "Information",
+        "MATERIAL": "Select Material",
+        "COLOR": "Select Color",
+        "DEFINE_COUNTERTOP": "Define Countertop"
+    },
+    "SCROLLABLE_AREA": {
+        "STEPS_COUNTER": "Step {{stepNumber}} of {{totalSteps}}",
+        "ADDRESS_INFORMATION": {
+            "INFORMATION": "INFORMATION",
+            "DESCRIPTION": "Enter your project's installation ZIP code. Then, select your store for product availability.",
+            "ZIP_CODE": "ZIP Code",
+            "NO_STORE": "There are no stores for this area",
+            "CONFIRMATION_MESSAGE": "CONFIRMATION MESSAGE",
+            "DESCRIPTION_CONFIRMATION_MESSAGE": "Some of your selected choices might not be available if the ZIP Code is changed.\n Would you like to continue?"
+        },
+        "MATERIAL": {
+            "TITLE": "MATERIAL",
+            "DESCRIPTION": "Select the material for your countertop",
+            "ENTER_ZIP_CODE": "Please enter your ZIP Code to be able to select your preferred Material. ",
+            "TITLE_UNAVAILABLE_MATERIAL_SELECTION": "Material",
+            "TITLE_UNAVAILABLE_MATERIAL_COLOR_SELECTION": "Material and Color",
+            "UNAVAILABLE_MATERIAL_COLOR_SELECTION_SELECTION": "Your selected Material and Color are not available in your area yet.",
+            "UNAVAILABLE_MATERIAL_SELECTION_SELECTION": "Your selected Material is not available in your area yet.",
+            "SEND_EMAIL": "Send us an email to find out when it will become available."
+        },
+        "COLOR": {
+            "TITLE": "COLOR",
+            "DESCRIPTION": "Choose the color for your countertop. If you are not sure, you can always purchase a sample.",
+            "SELECT_MATERIAL": "Please select your Material type in order to choose your preferred color.",
+            "PRICE_LOW_TO_HIGH": "Price - Low to High",
+            "PRICE_HIGH_TO_LOW": "Price - High to Low",
+            "NAME_A_Z": "Name - A to Z",
+            "NAME_Z_A": "Name - Z to A",
+            "TITLE_UNAVAILABLE_COLOR_SELECTION": "Color",
+            "UNAVAILABLE_SELECTION": "Your selected Color is not available in your area yet.",
+            "SEND_EMAIL": "Send us an email to find out when it will become available.",
+            "THICKNESS_INFO": "Would you like to change the surface thickness of your countertop from 3 CM to 2 CM? Please be aware that the price of colors will change."
+        },
+        "COUNTERTOP": {
+            "TITLE": "DESIGN COUNTERTOP",
+            "PREDEFINED_SHAPE": "PREDEFINED SHAPE",
+            "DRAW_LAYOUT": "DRAW LAYOUT",
+            "ADD_LAYOUT": "Add a layout",
+            "PREDEFINED_SHAPE_DESCRIPTION": "Start drawing a shape by, selecting a predefined shape ",
+            "FREE_DRAW_DESCRIPTION": "or drawing the layout of your countertop ",
+            "DISABLED_CARD_DESCRIPTION": "Please introduce your ZIP Code and start the search by pressing on the magnifying glass to be able to design your countertop.",
+            "MODAL_DESCRIPTION": "The diagram below represents side options for your countertop.",
+            "LENGTH": "Length",
+            "HEIGHT": "Height"
+        },
+        "EDGE": {
+            "TITLE": "EDGE",
+            "DESCRIPTION": "Select the Edge type for your Countertop",
+            "SELECT_MATERIAL": "Please select your Material type in order to choose your preferred edge."
+        },
+        "CORNER_RADIUS": {
+            "TITLE": "CORNER RADIUS",
+            "DESCRIPTION": "Select the Corner Radius type for your countertop and then click on the corners of shapes from drawing area to apply it.",
+            "SELECT_MATERIAL": "Please select your Material type in order to choose your preferred corner radius."
+        },
+        "CUSTOM_SIDE": {
+            "TITLE": "CUSTOM SIDE",
+            "DESCRIPTION": "Select the Side type for your countertop and then click on the edges of shapes from drawing area to apply it."
+        },
+        "DIAGONAL_CORNER": {
+            "TITLE": "DIAGONAL CORNER",
+            "DESCRIPTION": "Select the Diagonal Corner type for your countertop and then click on the corners of shapes from drawing area to apply it."
+        },
+        "TEAR_OUT_COUNTERTOP": {
+            "TITLE": "TEAR-OUT COUNTERTOPS",
+            "DESCRIPTION": "Select one or more of the below options if you want professionals to remove your existing countertop and haul it away. "
+        },
+        "CARD_MODAL": {
+            "TITLE": "Lorem ipsum...",
+            "CONTENT": "Lorem ipsum..."
+        }
+    },
+    "PRICING_AREA": {
+        "DEFAULT_DESCRIPTION": "Start estimate by designing your countertop using your preferred material and color",
+        "TOTAL": "Total",
+        "BASIC_INSTALLATION": "Basic installation",
+        "BASIC_INSTALLATION_CONTENT": "Basic installation includes template services, fabrication, delivery and installation of your countertop.",
+        "PRICE_DETAILS": "Price details"
+    },
+    "BUTTON": {
+        "FIND": "Find",
+        "CHECKOUT": "Checkout"
+    },
+    "VALIDATION_MESSAGE": {
+        "ZIP_CODE_EMPTY": "ZIP Code cannot be empty",
+        "ZIP_CODE_LESS_5DIGITS": "ZIP Code can't be less than 5 digits",
+        "ZIP_CODE_MORE_5DIGITS": "ZIP Code can't be more than 5 digits",
+        "ZIP_CODE_NUMERIC_INPUT": "ZIP Code must have numeric input"
+    },
+    "ERROR_MESSAGE": {
+        "STH_WENT_WRONG": "Something went wrong! Please try again later!"
+    }
+}
